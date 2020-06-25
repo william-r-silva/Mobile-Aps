@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/NV_Ultimos_Comentarios"
+            android:icon="@drawable/comments"
+            android:title="Últimos Comentrários" />
+        <item
+            android:id="@+id/NV_Meus_Comentarios"
+            android:icon="@drawable/comments"
+            android:title="Meus Comentários" />
+        <item
+            android:id="@+id/NV_Procurar_Empresas"
+            android:icon="@drawable/search"
+            android:title="Procurar empresas" />
+        <item
+            android:id="@+id/NV_Add_Empresa"
+            android:icon="@drawable/add_button"
+            android:title="Adicionar empresa" />
+    </group>
+
+    <item android:id="@+id/NV_Perfil"
+        android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/NV_Editar"
+                android:icon="@drawable/edit_button"
+                android:title="Editar" />
+            <item
+                android:id="@+id/NV_Sair"
+                android:icon="@drawable/exit"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

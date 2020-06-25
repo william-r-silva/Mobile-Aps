@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:id="@+id/List_Fundo"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/redondo_vermelho"
+        android:orientation="vertical"
+        android:paddingTop="10sp">
+
+        <TextView
+            android:id="@+id/List_MC_Empresa"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_weight="2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Empresa"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/List_MC_Comentario"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="8"
+            android:background="@drawable/redondo_branco"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10sp"
+            android:text="Comentario"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

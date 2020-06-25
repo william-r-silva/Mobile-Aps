@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navi_campanhas"
+            android:icon="@drawable/save_word"
+            android:title="Campanhas" />
+        <item
+            android:id="@+id/navi_campanhas_validacao"
+            android:icon="@drawable/correct"
+            android:title="Validar campanhas" />
+    </group>
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/navi_editar"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Editar" />
+            <item
+                android:id="@+id/navi_sair"
+                android:icon="@drawable/exit"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
